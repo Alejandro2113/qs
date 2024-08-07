@@ -1,0 +1,25 @@
+@keyframes bounce {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+/* Contact.css */
+input::placeholder, textarea::placeholder {
+  color: gray;
+  opacity: 1; /* para que el color del placeholder no se vea atenuado */
+}
+
+input, textarea {
+  color: gray; /* Asegúrate de que este color coincida con el color del placeholder */
+}
