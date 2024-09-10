@@ -2,7 +2,7 @@ import {
   SiJavascript, SiReact, SiNodedotjs, SiFirebase, 
   SiWebflow, SiGoogleanalytics, SiFacebook, SiAdobexd, 
   SiLinux, SiVisualstudiocode, SiTailwindcss, SiBootstrap, 
-  SiNextdotjs, SiWordpress
+  SiNextdotjs, SiWordpress, SiPostgresql  // Importing PostgreSQL icon
 } from 'react-icons/si';
 import { FaHeadphones } from 'react-icons/fa';
 
@@ -27,7 +27,8 @@ const icons = {
   cuttingedgetechnology: <SiReact style={{ ...iconStyles.large, color: '#61DAFB' }} />,
   developer: <SiVisualstudiocode style={{ ...iconStyles.large, color: '#0078d7' }} />,
   customersupport: <FaHeadphones style={{ ...iconStyles.large, color: '#03363D' }} />,
-  wordpress: <SiWordpress style={{ ...iconStyles.large, color: '#21759B' }} /> // Agregado el ícono de WordPress
+  wordpress: <SiWordpress style={{ ...iconStyles.large, color: '#21759B' }} />,
+  postgresql: <SiPostgresql style={{ ...iconStyles.large, color: '#336791' }} />  // Added PostgreSQL icon
 };
 
 const Icon = ({ name }) => {
