@@ -92,7 +92,7 @@ export default function Experience() {
           <h3 className="text-2xl font-semibold mt-4 text-yellow-400 border-b-2 border-yellow-400 pb-2 animate-bounceIn">Barrio Colombiano</h3>
           <p className="text-gray-700 font-bold">Freelance | <span className="font-bold">September 2024 - November 2024</span></p>
           <p className="text-gray-700 mb-4">
-          It's a web directory developed in Next.js, Tailwind, Prisma, and PostgreSQL, aimed at promoting the businesses stored in the database. It includes a login system and also has a client view.
+          A web directory developed in Next.js, Tailwind, Prisma, and PostgreSQL, aimed at promoting the businesses stored in the database. It includes a login system and also has a client view.
           </p>
           <div className="flex space-x-4 mt-4">
             <Icon name="nextjs" />
